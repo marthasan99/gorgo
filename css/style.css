@@ -116,6 +116,7 @@
 }
 .demo-sec1{
 	padding: 20px;
+	margin: 5px;
 	flex-basis: 25%;
 }
 .demo-sec1 p{
@@ -124,6 +125,7 @@
 }
 .demo-sec2{
 	padding: 20px;
+	margin: 5px;
 	flex-basis: 25%;
 }
 .demo-sec2 p{
@@ -132,6 +134,7 @@
 }
 .demo-sec3{
 	padding: 20px;
+	margin: 5px;
 	flex-basis: 25%;
 }
 .demo-sec3 p{
@@ -140,6 +143,7 @@
 }
 .demo-sec4{
 	padding: 20px;
+	margin: 5px;
 	flex-basis: 25%;
 }
 .demo-sec4 p{
