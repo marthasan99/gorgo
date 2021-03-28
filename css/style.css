@@ -1,0 +1,277 @@
+*{
+	margin 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	flex-basis: 15%
+}
+.menu{
+	flex-basis: 65%;
+}
+.menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	line-height: 16px;
+	color: black;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.header-button{
+	flex-basis: 20%;
+	text-align: right;
+}
+.header-button button{
+	background: #ff6162;
+	height: 46px;
+	width: 160px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 4px;
+}
+.header-button button:hover{
+	background: transparent;
+	border:1px solid #ff6162;
+}
+.header-button button a{
+	color: white;
+	text-decoration: none;
+}
+.header-button button a:hover{
+	color: #ff6162;
+}
+
+.banner{
+	width: 100%;
+	height: 80vh;
+	margin: 90px 0px 90px 0px;
+}
+.nav2{
+	display: flex;
+	width: 100%
+}
+.banner-text{
+	flex-basis: 50%;
+	padding-right: 30px;
+}
+.banner-text h1{
+	font-size: 44px;
+	letter-spacing: .05em;
+}
+.banner-text p{
+	color: #8292ac;
+}
+.banner-text a{
+	color: black;
+}
+.banner-text a i{
+	color: white;
+	background: #8d8b98;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+}
+.banner-img{
+	flex-basis: 50%;
+}
+.demo{
+	width: 100%;
+	height: 100vh;
+	margin: 90px 0px 90px 0px;
+}
+.demo h1{
+	text-align: center;
+}
+.demo p{
+	text-align: center;
+}
+.demo-text{
+	text-align: center;
+	font-style: italic;
+	color: #8292ac;
+}
+.nav3{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+	flex-grow: 1;
+}
+.demo-sec1{
+	padding: 20px;
+	flex-basis: 25%;
+}
+.demo-sec1 p{
+	font-weight: 600;
+	font-size: 18px;
+}
+.demo-sec2{
+	padding: 20px;
+	flex-basis: 25%;
+}
+.demo-sec2 p{
+	font-weight: 600;
+	font-size: 18px;
+}
+.demo-sec3{
+	padding: 20px;
+	flex-basis: 25%;
+}
+.demo-sec3 p{
+	font-weight: 600;
+	font-size: 18px;
+}
+.demo-sec4{
+	padding: 20px;
+	flex-basis: 25%;
+}
+.demo-sec4 p{
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.features{
+	width: 100%;
+	height: 70vh;
+}
+.features-box h1{
+	text-align: center;
+}
+.features-txt{
+	text-align: center;
+	color: #8292ac;
+	font-style: italic;
+}
+.nav4{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.box1{
+	flex-basis: 33.33%;
+	background: #f5f5f5;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.box1 i{
+	font-size: 30px;
+	margin-top: 20px;
+	color: #ff6a6b;
+	background: white;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	line-height: 80px;
+
+}
+.box2 i{
+	font-size: 30px;
+	margin-top: 20px;
+	color: #ff6a6b;
+	background: white;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	line-height: 80px;
+
+}
+.box3 i{
+	font-size: 30px;
+	margin-top: 20px;
+	color: #ff6a6b;
+	background: white;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	line-height: 80px;
+
+}
+.box2{
+	flex-basis: 33.33%;
+	background: #f5f5f5;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.box3{
+	flex-basis: 33.33%;
+	background: #f5f5f5;
+	color: black;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.nav5{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+.footer{
+	width: 100%;
+	height: 50vh;
+	background: #292640;
+	text-align: center;
+}
+.footer-item h1{
+	padding-top: 40px;
+	font-size: 56px;
+	color: white;
+}
+.footer-item img{
+	display: block;
+	text-align: center;
+	margin-left: 514px;
+	margin-top: 20px;
+}
+.footer-item button{
+	background: #ff6162;
+	height: 46px;
+	width: 160px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 4px;
+}
+.footer-item button:hover{
+	background: transparent;
+	border:1px solid #ff6162;
+}
+.footer-item button a{
+	color: white;
+	text-decoration: none;
+}
+.footer-item button a:hover{
+	color: #ff6162;
+}
+.footer a i{
+	text-align: left;
+	margin-left: 1120px;
+	color: #8d8b98;
+	background: white;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+}
+
