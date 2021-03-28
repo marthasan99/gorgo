@@ -112,10 +112,10 @@
 	margin: auto;
 }
 .nav3 img{
-	box-shadow: 0px 10px 10px 0px rgba(0 0 0/30%)
+	box-shadow: 0px 10px 10px 0px rgba(0 0 0/30%);
+	width: 100%;
 }
 .demo-sec1{
-	padding: 20px;
 	margin: 5px;
 	flex-basis: 25%;
 }
@@ -124,7 +124,6 @@
 	font-size: 18px;
 }
 .demo-sec2{
-	padding: 20px;
 	margin: 5px;
 	flex-basis: 25%;
 }
@@ -133,7 +132,6 @@
 	font-size: 18px;
 }
 .demo-sec3{
-	padding: 20px;
 	margin: 5px;
 	flex-basis: 25%;
 }
@@ -142,7 +140,6 @@
 	font-size: 18px;
 }
 .demo-sec4{
-	padding: 20px;
 	margin: 5px;
 	flex-basis: 25%;
 }
